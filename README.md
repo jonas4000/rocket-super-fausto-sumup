@@ -37,6 +37,12 @@ Pins are in [`include/pins.h`](include/pins.h).
    pio run -e esp32s3 -t upload -t monitor
    ```
 
+> **Security:** the SumUp secret API key is stored unencrypted in the ESP32's flash. Anyone with physical access to the board's USB port can read out the flash and take the key, which gives full access to your SumUp merchant account (transactions, checkouts, refunds). To reduce the risk:
+>
+> - make sure the USB port can't be reached once the board is mounted;
+> - optionally turn on [ESP32 flash encryption](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/security/flash-encryption.html);
+> - revoke the key in SumUp immediately if the device is ever lost or opened.
+
 ## Development without the device
 
 ```sh
