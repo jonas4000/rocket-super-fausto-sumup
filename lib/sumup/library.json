@@ -1,0 +1,8 @@
+{
+  "name": "sumup",
+  "version": "0.1.0",
+  "description": "SumUp Cloud API (Solo reader) payment provider, transport-agnostic",
+  "dependencies": {
+    "bblanchon/ArduinoJson": "^7.2.0"
+  }
+}

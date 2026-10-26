@@ -1,0 +1,9 @@
+FontAwesome5-Solid+Brands+Regular.woff is from Font Awesome Free 5
+by Fonticons, Inc. (https://fontawesome.com).
+
+Font Awesome Free licence (https://fontawesome.com/license/free):
+- Icons: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+- Fonts: SIL Open Font License 1.1 (https://openfontlicense.org)
+- Code: MIT
+
+The font is used to generate the icon fonts in src/ui/fonts/ (tools/gen_fonts.sh).

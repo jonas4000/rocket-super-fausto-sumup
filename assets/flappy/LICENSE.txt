@@ -1,0 +1,7 @@
+"Flappy Beans" by 1UP.capsule (https://opengameart.org/users/1upcapsule)
+Source: https://opengameart.org/content/flappy-beans
+License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+Changes: some files renamed; tools/flappy_to_lvgl.py crops and scales several
+sprites for the 320x240 landscape screen, adds blank button copies for text
+labels, and converts everything into src/ui/flappy_img.c.

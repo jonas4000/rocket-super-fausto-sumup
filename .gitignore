@@ -1,0 +1,9 @@
+# Credentials (see include/secrets.example.h)
+include/secrets.h
+
+# PlatformIO build output and simulator state
+.pio/
+.vscode/
+
+# macOS
+.DS_Store
