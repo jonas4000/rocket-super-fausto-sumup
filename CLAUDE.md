@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project status
 
-Early stage: core state machine, LVGL UI, tests, NVS persistence, the SumUp client and the display/touch driver exist; the firmware runs the UI on the device and joins Wi-Fi from `secrets.h` (works on the device). Not yet written: Wi-Fi setup/provisioning. The SumUp client has been checked against the real API from the Mac (`sumup-cli`), not yet on the ESP32.
+Working and in use on the device: touchscreen UI, SumUp card payments on the Solo, motor control with safety limits, NVS persistence, Supabase sales log, stats and the Flappy Beans game. Not written yet: Wi-Fi setup/provisioning (Wi-Fi comes from `secrets.h`).
 
 ## Public repository
 
